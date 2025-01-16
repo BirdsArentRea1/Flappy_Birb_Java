@@ -49,7 +49,7 @@ private int score = 0;
             pipe.x -= 5;
 
             if (pipe.x + pipe.width < 0) {
-                pipe.remove(i);
+                pipes.remove(i);
                 i--;
                 score++;
             }
